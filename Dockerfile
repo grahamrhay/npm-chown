@@ -17,4 +17,5 @@ RUN chown -R node $PWD
 
 ADD ./service/package.json .
 
+RUN npm i -g npm
 RUN --mount=type=ssh npm i
