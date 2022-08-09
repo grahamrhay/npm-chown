@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-FROM node:14-alpine
+FROM node:16-alpine
 
 RUN apk --no-cache --virtual build-dependencies add \
     make \
